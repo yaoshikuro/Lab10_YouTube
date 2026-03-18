@@ -8,3 +8,31 @@ body {
     font-family: "Roboto", Arial, sans-serif;
     background-color: #f9f9f9;
 }
+
+.header {
+    background-color: white;
+    padding: 0 16px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-left,
+.header-center,
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-center {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 40px;
+}
+
+.search-input {
+    flex: 1;
+}
