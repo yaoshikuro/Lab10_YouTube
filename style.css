@@ -31,10 +31,19 @@ body {
     flex: 1;
     max-width: 600px;
     margin: 0 40px;
+    gap: 0;
 }
 
 .search-input {
     flex: 1;
+    height: 40px;
+    border: 1px solidm;
+    border-style: 1px solid #CCC;
+    border-radius: 40px 0 0 40px;
+    padding: 0 16px;
+    font-size: 16px;
+    outline: none;
+    border-color: #065fd4;
 }
 
 button {
@@ -71,4 +80,19 @@ button:hover {
 
 .logo-text {
     font-size: 18px;
+}
+
+.search-btn {
+    width: 64px;
+    height: 40px;
+    border-radius: 0 40px 40px 0;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #f0f0f0;
+
 }
